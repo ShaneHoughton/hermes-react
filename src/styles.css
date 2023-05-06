@@ -1,0 +1,108 @@
+body{
+    background-color: #2F305D !important;
+    background-attachment: fixed;
+    color: #FAFAFAFA;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    width: 100vw;
+    height: 100px;
+    background-color: #1F203C;
+    position: fixed;
+    z-index: 20;
+}
+
+.page-content{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-left{
+    border-right: 1px solid rgba(255, 255, 255, 0.333);
+    padding-top: 100px;
+    width: 35vw;
+    height: 100%;
+    left: 0;
+    position: fixed;
+}
+
+.page-right{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.athlete-card{
+    color: #FAFAFAFA;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+.athlete-name{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.athlete-details{
+
+    
+}
+
+
+.event{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.align-left{
+    text-align: left;
+    
+}
+
+.align-right{
+    text-align: right;
+}
+
+.wide{
+    width: 160px;
+    padding: 0 10px;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.progress {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    margin-top: -20px;
+    margin-left: 165px;
+}
+
+.hermes-desc{
+    margin-top: -20px;
+}
