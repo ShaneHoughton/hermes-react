@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hermes-react/static/css/main.3bebb3f2.css",
+    "main.js": "/hermes-react/static/js/main.e5b9f963.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/hermes-react/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/hermes-react/index.html",
+    "main.3bebb3f2.css.map": "/hermes-react/static/css/main.3bebb3f2.css.map",
+    "main.e5b9f963.js.map": "/hermes-react/static/js/main.e5b9f963.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/hermes-react/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bebb3f2.css",
+    "static/js/main.e5b9f963.js"
+  ]
+}
