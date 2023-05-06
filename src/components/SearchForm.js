@@ -81,7 +81,7 @@ function SearchForm({setData, setLoading}) {
       season = `${year}_Outdoor`
       console.log(season)
     }
-    let url = `/athlete-bests?Gender=${gender}&Team-name=${school}&State=${schoolState}&Season=${season}&Name=${lastName}_${firstName}`
+    let url = `https://nilbogcoffee.pythonanywhere.com/athlete-bests?Gender=${gender}&Team-name=${school}&State=${schoolState}&Season=${season}&Name=${lastName}_${firstName}`
 
     setLoading(true);
     fetch(url).then(
